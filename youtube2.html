@@ -44,7 +44,7 @@
 
      async function showmoviees(){
          let q = "most popular educational video in india"
-         let res1 = await fetch(`https://www.googleapis.com/youtube/v3/search?q=${q}&key=AIzaSyDvo7WiqiI3lGV33q1wgPGIPtTzqC8MenQ&maxResults=4`)
+         let res1 = await fetch(`https://www.googleapis.com/youtube/v3/search?q=${q}&key=AIzaSyDvo7WiqiI3lGV33q1wgPGIPtTzqC8MenQ&maxResults=8`)
          let data1 = await res1.json();
          console.log(data1);
 
